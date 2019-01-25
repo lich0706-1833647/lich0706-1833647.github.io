@@ -1,0 +1,66 @@
+body{
+    background-image: linear-gradient(90deg,#c6ffdd,#fbd789,#f7797d);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: lightseagreen;
+}
+h2{
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke: 2px #f7797d;
+    text-align: center;
+    font-size: 40pt;
+}
+fieldset{
+    border: 2px solid #c6ffdd;
+    font-size: 15px;
+}
+legend{
+    color: lightseagreen;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 5px;
+    text-align: right;
+}
+label{
+    display: flex;
+    padding: 5px;
+    color: lightseagreen;
+}
+select[name=state]{
+    color: lightseagreen;
+    border: 1px solid #fbd789;
+}
+input{
+    border: 1px solid #fbd789;
+}
+
+textarea{
+    border: 1px solid #fbd789;
+}
+textarea:hover{
+    border: 1px solid #f7797d;
+}
+ul{
+    list-style-type: none;
+    color: lightseagreen;
+}
+table{
+    color: lightseagreen;
+}
+input[type=submit]{
+    width: 100%;
+    height: 50px;
+    left: auto;
+    right: auto;
+    margin: 15px;
+    padding: 8px;
+    border-radius: 15px;
+    background-color: #f7797d;
+    border: 2px solid #f7797d;
+    color: white;
+    font-size: 15px;
+}
+input[type=submit]:hover{
+    color: #f7797d;
+    background-color: white;
+    border: 2px solid #f7797d;
+}
